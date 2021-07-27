@@ -4,7 +4,7 @@ const app = express()
 
 const port = process.env.PORT;
 
-const timeout = 2000;
+const timeout = 300000;
 
 app.get('/', (req, res) => {
     setTimeout(function() {
