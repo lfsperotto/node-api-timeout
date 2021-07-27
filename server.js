@@ -1,5 +1,7 @@
 const app = require('./index')
 
+const port = 80;
+
 const timeout = 2000;
 
 app.get('/', (req, res) => {
@@ -8,7 +10,7 @@ app.get('/', (req, res) => {
     }, timeout)
   })
 
-app.listen(3000, (err) => {
+app.listen(port, (err) => {
     if (err) throw err
-    console.log('Server running in http://localhost:3000 with timeout: ' + timeout + ' milisegundos')
+    console.log('Server running in http://localhost:' + port + ' with timeout: ' + timeout + ' milisegundos')
 })
