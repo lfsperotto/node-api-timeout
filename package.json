@@ -1,16 +1,19 @@
 {
-  "name": "api",
+  "name": "node-api",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "node-api to test timeout test",
+  "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "lfsperotto",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
     "ngrok": "^4.1.0"
+  },
+  "engines": {
+    "node": "16.x"
   }
 }
